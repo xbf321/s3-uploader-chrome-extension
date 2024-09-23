@@ -10,7 +10,10 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.654.0",
+    "@aws-sdk/lib-storage": "^3.654.0",
     "plasmo": "0.89.2",
+    "rc-upload": "^4.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -20,7 +23,10 @@
     "@types/node": "20.11.5",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
     "prettier": "3.2.4",
+    "tailwindcss": "^3.4.12",
     "typescript": "5.3.3"
   },
   "manifest": {
