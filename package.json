@@ -1,8 +1,8 @@
 {
-  "name": "s3-uploader-chrome-extension",
-  "displayName": "S3 uploader chrome extension",
-  "version": "0.0.1",
-  "description": "A basic Plasmo extension.",
+  "name": "s3-uploader",
+  "displayName": "S3 Uploader",
+  "version": "1.0.0",
+  "description": "通过 Chrome 插件，上传文件至 S3 服务器。",
   "author": "xbf321@gmail.com",
   "scripts": {
     "dev": "plasmo dev",
@@ -12,9 +12,12 @@
   "dependencies": {
     "@aws-sdk/client-s3": "^3.654.0",
     "@aws-sdk/lib-storage": "^3.654.0",
+    "@plasmohq/storage": "^1.12.0",
+    "classnames": "^2.5.1",
     "plasmo": "0.89.2",
     "rc-upload": "^4.8.1",
     "react": "18.2.0",
+    "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
